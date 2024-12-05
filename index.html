@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>But</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="toggle">
+            <div class="toggle-button" onclick="Animatedtoggle()"></div>
+        </div>
+        <div class="text1">Month builing</div>
+         <div class="text2">Year builing</div>
+    </div>
+
+    <script>
+        let toggle = document.querySelector(".toggle");
+        let text = document.querySelector(".text");
+
+        function Animatedtoggle(){
+            toggle.classList.toggle("active");
+
+            
+            
+        }
+    </script>
+
+    <!-- à insérer dans le script pour l'action ON/OFF
+
+            if(toggle.classList.contains("active")){
+                text.innerHTML ="ON"
+            }
+            else{
+                text.innerHTML="OFF"
+            }
+            
+        }
+
+    -->
+
+
+</body>
+
+</html>
